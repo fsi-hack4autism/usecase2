@@ -137,8 +137,12 @@ If you received an error or your file doesn't upload to the container, check the
 The /images folder includes images for upload. 
 
 ## Team 2 Updates:
+
 1. Resources used > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
 2. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
 3. _Deployment token unavailable , need ADMIN access to repo. _
-4. 
+4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
+
+## Screen Visual/ Image Updates  >
+6. ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
 
