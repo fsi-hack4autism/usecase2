@@ -135,3 +135,10 @@ If you received an error or your file doesn't upload to the container, check the
 ## Images
 
 The /images folder includes images for upload. 
+
+## Team 2 Updates:
+1. Resources used > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
+2. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
+3. _Deployment token unavailable , need ADMIN access to repo. _
+4. 
+
