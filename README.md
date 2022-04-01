@@ -170,10 +170,12 @@ The /images folder includes images for upload.
         *Azure Storage - used to view Storage resource
         *Azure Static Web Apps - used to create and deploy the React app to Azure
         
- ## Challenges Faced and Overcome
+ ## Challenges Faced 
  1. Configure the SAS token.
  2. Deployment token unavailable , need ADMIN access to repo. 
  3. Static web app connection to storage resource and adding storage secrets.
+ 4. Sharepoint link related issues that were resolved with help from Devanshi and Pierre.
+ 5. Email ID's to share the video file is limited to outlook emails?? 
 
 
 ## FUTURE STATE Changes reccomended:
