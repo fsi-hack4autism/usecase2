@@ -185,6 +185,7 @@ The /images folder includes images for upload.
  3. Static web app connection to storage resource and adding storage secrets.
  4. Sharepoint link related issues that were resolved with help from Devanshi and Pierre.
  5. Email ID's to share the video file is limited to outlook emails?? 
+ 6. Facing CORS error, unable to hit the COSMOS db.
 
 
 ## FUTURE STATE Changes reccomended:
