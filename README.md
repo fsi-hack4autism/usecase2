@@ -159,6 +159,10 @@ The /images folder includes images for upload.
     > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
     > https://docs.microsoft.com/en-us/azure/cosmos-db/sql/create-sql-api-nodejs
     > https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-nodejs-get-started
+    > iFrame link for AZURE analyzer, sample: 
+        HTML :<iframe width="580" height="780" src="https://www.videoindexer.ai/embed/insights/5d6ddf3c-18
+     ![image](https://user-images.githubusercontent.com/95766933/161299618-05fdef08-3e76-49ef-bb2b-17e44a23eb52.png)
+
     
 3. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
 4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
