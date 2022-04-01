@@ -153,15 +153,28 @@ The /images folder includes images for upload.
         
     
 
-## Team 2 Updates:
-
+## Team 2 Updates: Upload functionality 
+2022-MAR 31:
 1. Resources used > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
 2. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
-3. _Deployment token unavailable , need ADMIN access to repo. _
-4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
-
-5. Screen Visual/ Image Updates  >
+3. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
+4. Screen Visual/ Image Updates  >
  ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
 
-## FUTURE STATE:
+
+## Learnings
+1. Node.js LTS with NPM
+2. Visual Studio Code 
+3. Visual Studio Code extensions:
+        *Azure Resource
+        *Azure Storage - used to view Storage resource
+        *Azure Static Web Apps - used to create and deploy the React app to Azure
+        
+ ## Challenges Faced and Overcome
+ 1. Configure the SAS token.
+ 2. Deployment token unavailable , need ADMIN access to repo. 
+ 3. Static web app connection to storage resource and adding storage secrets.
+
+
+## FUTURE STATE Changes reccomended:
 1. Functionality to seggregate videos/files for individual paritens so that the relevant files are shared with the right teams , family members, ABA therapists. The currenst state covers only one patient where videos uploaded are send to same team of people for review/ commentary , this should be expanded in the future state. Introduce the database to store the patient details and link their videos together and their specific team in the database so the emails are routed to the relevant people.
