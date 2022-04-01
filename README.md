@@ -150,7 +150,8 @@ The /images folder includes images for upload.
     * We uploaded an exmaple video
     * Couldn't find a premade action on the logic app
     * Next step is to see if we can do it with code!
-        
+* Resources>
+    *https://docs.microsoft.com/en-us/azure/azure-video-analyzer/video-analyzer-for-media-docs/logic-apps-connector-tutorial       
     
 
 ## Team 2 Updates: Upload functionality 
