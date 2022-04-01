@@ -139,7 +139,7 @@ The /images folder includes images for upload.
 ## Team 1 Updates:
 2022-MAR-31:
 
-* Set up blob storage account, the logic app, COSMOS DB, and Media Service
+* Set up blob storage account, the logic app, Cosmos DB, and Media Service
 * Investigated emailing functionality using the logic app
     * Seemed to have issues with credentials
 * Investigated how to setup an action on logic app to upload to SharePoint
@@ -147,11 +147,20 @@ The /images folder includes images for upload.
 * Started to hook up the cosmos db to logic app
     * Kept getting BadRequest error when we tried to run the trigger
 * Went through the capabilities of the Video Analyzer
-    * We uploaded an exmaple video
+    * We uploaded an example video
     * Couldn't find a premade action on the logic app
     * Next step is to see if we can do it with code!
 * Resources>
     *https://docs.microsoft.com/en-us/azure/azure-video-analyzer/video-analyzer-for-media-docs/logic-apps-connector-tutorial       
+    
+2022-APR-01:
+
+* To get around the connection issues, we ended up using our tech leads' credentials
+* We switched to using "Logic App" rather than "Logic App (Standard)" which seems to have worked better for us
+* Got logic app to save the blob to SharePoint, save the metadata into Cosmos DB, and send an email
+* For now we've hard coded the sentiments into Cosmos DB
+* Attempted to use Video Indexer (v2) to get an Access Token and upload the video to video analyzer
+    * Got stuck getting the access token due to access issues
     
 
 ## Team 2 Updates: Upload functionality 
