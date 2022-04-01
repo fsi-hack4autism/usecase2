@@ -136,6 +136,10 @@ If you received an error or your file doesn't upload to the container, check the
 
 The /images folder includes images for upload. 
 
+## Architecture Diagram
+![image](https://user-images.githubusercontent.com/95766933/161324858-076b3dc5-f8fe-4d4d-af82-fd68c9938543.png)
+
+
 ## Team 1 Updates:
 2022-MAR-31:
 
@@ -180,8 +184,16 @@ The /images folder includes images for upload.
  ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
 6. iFrame details > <iframe width="580" height="780" src="https://www.videoindexer.ai/embed/insights/5d6ddf3c-18fb-4cc2-b473-6be397c1b17e/3fa07788a3/?&locale=en&location=trial" frameborder="0" allowfullscreen></iframe>
 7. AZURE analyzer tutorial https://docs.microsoft.com/en-us/azure/azure-video-analyzer/video-analyzer-for-media-docs/logic-apps-connector-tutorial  
+8. Azure Video Analyzer   > https://docs.microsoft.com/en-us/azure/azure-video-analyzer/video-analyzer-for-media-docs/video-indexer-overview
+9. Logic Apps  > https://docs.microsoft.com/en-us/azure/logic-apps/
+10.Blob Storage > https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+11.Cosmos DB  >https://docs.microsoft.com/en-us/learn/modules/work-with-cosmos-db/
+12.Microsoft Stream > https://docs.microsoft.com/en-us/stream/streamnew/features-new-version-stream
+    >https://docs.microsoft.com/en-us/stream/streamnew/new-stream
+13.Azure App Service >https://docs.microsoft.com/en-us/azure/app-service/overview
+  
 
-## Learnings
+##  Learnings
 1. Node.js LTS with NPM
 2. Visual Studio Code 
 3. Visual Studio Code extensions:
