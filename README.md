@@ -188,3 +188,12 @@ The /images folder includes images for upload.
 
 ## FUTURE STATE Changes reccomended:
 1. Functionality to seggregate videos/files for individual paritens so that the relevant files are shared with the right teams , family members, ABA therapists. The currenst state covers only one patient where videos uploaded are send to same team of people for review/ commentary , this should be expanded in the future state. Introduce the database to store the patient details and link their videos together and their specific team in the database so the emails are routed to the relevant people.
+
+ ## APPENDIX:
+ 1. COSMOS DB 
+    Uri: https://usecase2cosmosdbacct.documents.azure.com:443/
+    databaseId: usecase2cosmoscontainer
+    containerId: container1
+    AccountKey (static) : CuQMVMLbaPMw8Ut72NmaurZShQFocyJd4fa1roQzNtcedWglJRPydKbMfDEsmhNLQPhlsxLaAVaNnxT1JPa2ig==
+
+
