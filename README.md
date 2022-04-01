@@ -160,6 +160,8 @@ The /images folder includes images for upload.
 3. _Deployment token unavailable , need ADMIN access to repo. _
 4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
 
-## Screen Visual/ Image Updates  >
-6. ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
+5. Screen Visual/ Image Updates  >
+ ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
 
+## FUTURE STATE:
+1. Functionality to seggregate videos/files for individual paritens so that the relevant files are shared with the right teams , family members, ABA therapists. The currenst state covers only one patient where videos uploaded are send to same team of people for review/ commentary , this should be expanded in the future state. Introduce the database to store the patient details and link their videos together and their specific team in the database so the emails are routed to the relevant people.
