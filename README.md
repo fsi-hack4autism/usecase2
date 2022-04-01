@@ -164,7 +164,7 @@ The /images folder includes images for upload.
     
 
 ## Team 2 Updates: Upload functionality 
-2022-MAR 31:
+2022-MAR 31 - 2022-APR-01:
 1. Resources used 
     > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
     > https://docs.microsoft.com/en-us/azure/cosmos-db/sql/create-sql-api-nodejs
@@ -178,7 +178,8 @@ The /images folder includes images for upload.
 4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
 5. Screen Visual/ Image Updates  >
  ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
-
+6. iFrame details > <iframe width="580" height="780" src="https://www.videoindexer.ai/embed/insights/5d6ddf3c-18fb-4cc2-b473-6be397c1b17e/3fa07788a3/?&locale=en&location=trial" frameborder="0" allowfullscreen></iframe>
+7. AZURE analyzer tutorial https://docs.microsoft.com/en-us/azure/azure-video-analyzer/video-analyzer-for-media-docs/logic-apps-connector-tutorial  
 
 ## Learnings
 1. Node.js LTS with NPM
@@ -187,18 +188,33 @@ The /images folder includes images for upload.
         *Azure Resource
         *Azure Storage - used to view Storage resource
         *Azure Static Web Apps - used to create and deploy the React app to Azure
+ 4. Azure analyzer
+ 5. Recommend using a smaller size video for testing.
         
  ## Challenges Faced 
- 1. Configure the SAS token.
+ 1. Obtaining LogicApps credentials to give access to all underlying apps. 
  2. Deployment token unavailable , need ADMIN access to repo. 
  3. Static web app connection to storage resource and adding storage secrets.
  4. Sharepoint link related issues that were resolved with help from Devanshi and Pierre.
  5. Email ID's to share the video file is limited to outlook emails?? 
- 6. Facing CORS error, unable to hit the COSMOS db.
+ 6. Faced CORS policy error, unable to hit the AZURE COSMOS db. Explored the below link for solution
+    > https://docs.microsoft.com/en-us/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services 
+        > NOTE : Currently, you cannot use wildcards as part of the domain name. For example https://*.mydomain.net format is not yet supported. Follow below link for further help  >https://docs.microsoft.com/en-us/azure/cosmos-db/sql/how-to-configure-cross-origin-resource-sharing#:~:text=The%20Core%20(SQL)%20API%20in,the%20rules%20you%20have%20specified.
+  7. Creating sharepoint link. Went with embedded link to the webpage > https://microsoft.sharepoint.com/:v:/t/AutismUseCase2/EThoyxxEirZMtozR6Kq-TDkB_m7yU2-Ewaj8JaRPbakxpQ?e=9ueEU6.
+  8. Configure the SAS token.
 
 
 ## FUTURE STATE Changes reccomended:
-1. Functionality to seggregate videos/files for individual paritens so that the relevant files are shared with the right teams , family members, ABA therapists. The currenst state covers only one patient where videos uploaded are send to same team of people for review/ commentary , this should be expanded in the future state. Introduce the database to store the patient details and link their videos together and their specific team in the database so the emails are routed to the relevant people.
+1. Functional:
+    * Use Case1 : Multiple client -Seggregate videos/files for individual client so that the relevant files are shared with the right teams , family members, ABA therapists. The currenst state covers only one client where videos uploaded are send to same team of people for review/ commentary , this should be expanded in the future state. Introduce the database to store the patient details and link their videos together and their specific team in the database so the emails are routed to the relevant people.
+    * Use Case2 : Multiple videos for single client
+    
+2. Eliminate all hard code. Sharepoint links etc.
+3. Integration of Logic apps to azure analyzer.
+4. Interactive dashboard for all the parties involved with the client.
+5. Bringing in IOT data to the webapp.
+6. Opening the availability to multiple interfaces iOS, andriod etc.   
+    
 
  ## APPENDIX:
  1. COSMOS DB 
@@ -206,5 +222,8 @@ The /images folder includes images for upload.
     databaseId: usecase2cosmoscontainer
     containerId: container1
     AccountKey (static) : CuQMVMLbaPMw8Ut72NmaurZShQFocyJd4fa1roQzNtcedWglJRPydKbMfDEsmhNLQPhlsxLaAVaNnxT1JPa2ig==
+ 2. SQL statements:
+    SELECT c.metadata.Name,c.sentiments FROM c
+    
 
 
