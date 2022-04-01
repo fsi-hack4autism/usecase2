@@ -155,10 +155,14 @@ The /images folder includes images for upload.
 
 ## Team 2 Updates: Upload functionality 
 2022-MAR 31:
-1. Resources used > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
-2. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
-3. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
-4. Screen Visual/ Image Updates  >
+1. Resources used 
+    > https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/browser-file-upload-azure-storage-blob?WT.mc_id=email
+    > https://docs.microsoft.com/en-us/azure/cosmos-db/sql/create-sql-api-nodejs
+    > https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-nodejs-get-started
+    
+3. Application Link > https://black-tree-08edee810.1.azurestaticapps.net/
+4. Testcontainer new resource is created > url : https://usecase2videoanalyzer.blob.core.windows.net/testcontainer
+5. Screen Visual/ Image Updates  >
  ![image](https://user-images.githubusercontent.com/95766933/161149290-037acb64-07f9-4b66-ae2e-d31148d7fc69.png)
 
 
